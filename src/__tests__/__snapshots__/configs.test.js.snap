@@ -1,0 +1,378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`emits correct config for target 'flow' and environment '{"browsers":["last 2 versions","ie >= 11"]}' 1`] = `
+{
+  "presets": [],
+  "plugins": [
+    "<BABEL_PRESET_ROOT>/src/dev-expression-check.js",
+    "<BABEL_PRESET_ROOT>/src/dev-declaration.js"
+  ],
+  "parserOpts": {
+    "plugins": [
+      "jsx",
+      "flow",
+      "flowComments",
+      "bigInt",
+      "throwExpressions",
+      "classPrivateProperties",
+      "classProperties",
+      "dynamicImport",
+      "nullishCoalescingOperator",
+      "numericSeparator",
+      "objectRestSpread",
+      "optionalChaining"
+    ]
+  },
+  "retainLines": true
+}
+`;
+
+exports[`emits correct config for target 'flow' and environment '{"node":"current"}' 1`] = `
+{
+  "presets": [],
+  "plugins": [
+    "<BABEL_PRESET_ROOT>/src/dev-expression-check.js",
+    "<BABEL_PRESET_ROOT>/src/dev-declaration.js"
+  ],
+  "parserOpts": {
+    "plugins": [
+      "jsx",
+      "flow",
+      "flowComments",
+      "bigInt",
+      "throwExpressions",
+      "classPrivateProperties",
+      "classProperties",
+      "dynamicImport",
+      "nullishCoalescingOperator",
+      "numericSeparator",
+      "objectRestSpread",
+      "optionalChaining"
+    ]
+  },
+  "retainLines": true
+}
+`;
+
+exports[`emits correct config for target 'flow' and environment 'undefined' 1`] = `
+{
+  "presets": [],
+  "plugins": [
+    "<BABEL_PRESET_ROOT>/src/dev-expression-check.js",
+    "<BABEL_PRESET_ROOT>/src/dev-declaration.js"
+  ],
+  "parserOpts": {
+    "plugins": [
+      "jsx",
+      "flow",
+      "flowComments",
+      "bigInt",
+      "throwExpressions",
+      "classPrivateProperties",
+      "classProperties",
+      "dynamicImport",
+      "nullishCoalescingOperator",
+      "numericSeparator",
+      "objectRestSpread",
+      "optionalChaining"
+    ]
+  },
+  "retainLines": true
+}
+`;
+
+exports[`emits correct config for target 'js' and environment '{"browsers":["last 2 versions","ie >= 11"]}' 1`] = `
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": false,
+        "modules": "commonjs",
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "ie >= 11"
+          ]
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "<BABEL_PRESET_ROOT>/src/dev-expression-check.js",
+    "<BABEL_PRESET_ROOT>/src/dev-expression.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-invariant.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-warning.js",
+    "@babel/plugin-transform-flow-strip-types",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-nullish-coalescing-operator",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-numeric-separator",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "useESModules": false
+      }
+    ],
+    "@kiwicom/babel-plugin-orbit-components"
+  ],
+  "parserOpts": {
+    "plugins": [
+      "jsx",
+      "flow",
+      "flowComments",
+      "bigInt",
+      "throwExpressions"
+    ]
+  },
+  "retainLines": false
+}
+`;
+
+exports[`emits correct config for target 'js' and environment '{"node":"current"}' 1`] = `
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": false,
+        "modules": "commonjs",
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "<BABEL_PRESET_ROOT>/src/dev-expression-check.js",
+    "<BABEL_PRESET_ROOT>/src/dev-expression.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-invariant.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-warning.js",
+    "@babel/plugin-transform-flow-strip-types",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-nullish-coalescing-operator",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-numeric-separator",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "useESModules": false
+      }
+    ],
+    "@kiwicom/babel-plugin-orbit-components"
+  ],
+  "parserOpts": {
+    "plugins": [
+      "jsx",
+      "flow",
+      "flowComments",
+      "bigInt",
+      "throwExpressions"
+    ]
+  },
+  "retainLines": false
+}
+`;
+
+exports[`emits correct config for target 'js' and environment 'undefined' 1`] = `
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": false,
+        "modules": "commonjs",
+        "targets": {
+          "node": "current",
+          "browsers": [
+            "last 2 versions",
+            "ie >= 11"
+          ]
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "<BABEL_PRESET_ROOT>/src/dev-expression-check.js",
+    "<BABEL_PRESET_ROOT>/src/dev-expression.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-invariant.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-warning.js",
+    "@babel/plugin-transform-flow-strip-types",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-nullish-coalescing-operator",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-numeric-separator",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "useESModules": false
+      }
+    ],
+    "@kiwicom/babel-plugin-orbit-components"
+  ],
+  "parserOpts": {
+    "plugins": [
+      "jsx",
+      "flow",
+      "flowComments",
+      "bigInt",
+      "throwExpressions"
+    ]
+  },
+  "retainLines": false
+}
+`;
+
+exports[`emits correct config for target 'js-esm' and environment '{"browsers":["last 2 versions","ie >= 11"]}' 1`] = `
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": false,
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "ie >= 11"
+          ]
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "<BABEL_PRESET_ROOT>/src/dev-expression-check.js",
+    "<BABEL_PRESET_ROOT>/src/dev-expression.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-invariant.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-warning.js",
+    "@babel/plugin-transform-flow-strip-types",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-nullish-coalescing-operator",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-numeric-separator",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "useESModules": true
+      }
+    ],
+    "@kiwicom/babel-plugin-orbit-components"
+  ],
+  "parserOpts": {
+    "plugins": [
+      "jsx",
+      "flow",
+      "flowComments",
+      "bigInt",
+      "throwExpressions"
+    ]
+  },
+  "retainLines": false
+}
+`;
+
+exports[`emits correct config for target 'js-esm' and environment '{"node":"current"}' 1`] = `
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": false,
+        "modules": false,
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "<BABEL_PRESET_ROOT>/src/dev-expression-check.js",
+    "<BABEL_PRESET_ROOT>/src/dev-expression.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-invariant.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-warning.js",
+    "@babel/plugin-transform-flow-strip-types",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-nullish-coalescing-operator",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-numeric-separator",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "useESModules": true
+      }
+    ],
+    "@kiwicom/babel-plugin-orbit-components"
+  ],
+  "parserOpts": {
+    "plugins": [
+      "jsx",
+      "flow",
+      "flowComments",
+      "bigInt",
+      "throwExpressions"
+    ]
+  },
+  "retainLines": false
+}
+`;
+
+exports[`emits correct config for target 'js-esm' and environment 'undefined' 1`] = `
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": false,
+        "modules": false,
+        "targets": {
+          "node": "current",
+          "browsers": [
+            "last 2 versions",
+            "ie >= 11"
+          ]
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "<BABEL_PRESET_ROOT>/src/dev-expression-check.js",
+    "<BABEL_PRESET_ROOT>/src/dev-expression.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-invariant.js",
+    "<BABEL_PRESET_ROOT>/src/kiwicom-js-warning.js",
+    "@babel/plugin-transform-flow-strip-types",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-nullish-coalescing-operator",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-numeric-separator",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "useESModules": true
+      }
+    ],
+    "@kiwicom/babel-plugin-orbit-components"
+  ],
+  "parserOpts": {
+    "plugins": [
+      "jsx",
+      "flow",
+      "flowComments",
+      "bigInt",
+      "throwExpressions"
+    ]
+  },
+  "retainLines": false
+}
+`;
